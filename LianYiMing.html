@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js – The HTML Presentation Framework</title>
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-transition="zoom">
+					<h1>
+						Daily Meeting!
+					</h1>
+					<h3>早上好！</h3><small><del>你结婚了吗？</del></small><b>晨会开始!!!</b>
+					<blockquote>
+						<p><i><small>Created by <a href="https://www.LianYiMing.com">LianYiMing</a></small></i></p>
+					</blockquote>
+				</section>
+				<section>
+					<section>
+						<a href="#" class="navigate-down">
+							<h3>每天都有现杀的事，每天都有带劲的闻</h3>
+							<blockquote><em>
+									The world 千变万化 <br />The news 随时 happen </em></blockquote>
+
+						</a>
+
+					</section>
+					<section><a href="#/2">
+							<img class="r-frame" style="background: rgba(255,255,255,0.1); transform: rotate(180deg);" width="178" height="238"
+							 data-src="https://static.slid.es/reveal/arrow.png" alt="Up arrow">
+						</a></section>
+				</section>
+				<section data-auto-animate>
+					<a data-id="code-title">
+						<h2>#中考范文</h2>
+						<h5>范文是人类进步的<del>VPN</del>梯子</h5>
+					</a>
+
+					<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
+						console.log("烤面筋可带劲了呢")
+
+						function Example() {
+						  const [count, setCount] = useState(0);
+
+						  return (
+						    ...
+						  );
+						}
+					</code></h2></pre>
+				</section>
+				<section data-auto-animate>
+					<h2 data-id="code-title">With animations</h2>
+					<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers="|4,8-11|17|22-24"><script type="text/template">
+								console.log("烤面筋可带劲了呢")
+						
+								function Example() {
+								  const [count, setCount] = useState(0);
+						
+								  return (
+								    <div>
+								      <p>出现了真实名字,您没分了...</p>
+								      <button onClick={() => setCount(count + 1)}>
+								        Click me
+								      </button>
+								    </div>
+								  );
+								}
+						
+								function SecondExample() {
+								  const [count, setCount] = useState(0);
+						
+								  return (
+								    <div>
+								      <p>You clicked {count} times</p>
+								      <button onClick={() => setCount(count + 1)}>
+								        Click me
+								      </button>
+								    </div>
+								  );
+								}
+							</script></code></pre>
+
+				</section>
+				<section>
+					<h2>美文标题</h2>
+					范文内容
+				</section>
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<h2>It's over!</h2>
+					<p>我们的晨会almost搞完了.</p>
+					<div class="r-hstack justify-center">
+						<div data-id="box1" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
+						<div data-id="box2" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
+						<div data-id="box3" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
+					</div>
+				</section>
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<div class="r-hstack justify-center">
+						<div data-id="box1" data-auto-animate-delay="0" style="background: cyan; width: 150px; height: 100px; margin: 10px;"></div>
+						<div data-id="box2" data-auto-animate-delay="0.1" style="background: magenta; width: 150px; height: 100px; margin: 10px;"></div>
+						<div data-id="box3" data-auto-animate-delay="0.2" style="background: yellow; width: 150px; height: 100px; margin: 10px;"></div>
+					</div>
+					<h2 style="margin-top: 20px;">It's over!</h2>
+				</section>
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<div class="r-stack">
+						<div data-id="box1" style="background: cyan; width: 300px; height: 300px; border-radius: 200px;"></div>
+						<div data-id="box2" style="background: magenta; width: 200px; height: 200px; border-radius: 200px;"></div>
+						<div data-id="box3" style="background: yellow; width: 100px; height: 100px; border-radius: 200px;"></div>
+					</div>
+					<h2 style="margin-top: 20px;">欢迎来<h4>www.LianYiMing.com</h4>康康</h2>
+				</section>
+
+
+				<section></section>
+			</div>
+		</div>
+	</body>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/zoom/zoom.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/search/search.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// Also available as an ES module, see:
+		// https://revealjs.com/initialization/
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			center: true,
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight]
+		});
+	</script>
+</html>
